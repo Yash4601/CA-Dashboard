@@ -1,0 +1,133 @@
+#sidebar-toggle {
+  display: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 295px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: var(--main-color);
+  color: #fff;
+  overflow-y: auto;
+  transition: width 500ms;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-header span {
+  font-size: 1.5rem;
+}
+
+.sidebar-menu {
+  padding: 1rem 0;
+}
+
+.sidebar li {
+  /* margin-bottom: 20px; */
+  float: none !important;
+  display: block;
+  height: 43.2px;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important
+}
+
+.sidebar a {
+  color: #fff;
+  /* font-size: .9rem; */
+  font-weight: 600;
+  line-height: 1.25;
+  padding: 12px 35.2px 12px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #25303b;
+  border-left: 3px solid #fff;
+  padding-left: 21px;
+}
+
+.tags {
+  pointer-events: none;
+  user-select: none;
+  min-height: 44px;
+  margin-top: 1rem !important;
+}
+
+.tags a {
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: inherit !important;
+  background: none !important;
+  border: none !important;
+}
+
+.sidebar a span:first-child {
+  font-size: 20px;
+}
+
+.bx {
+  margin-right: 9.6px;
+}
+
+.sidebar a span:last-child {
+  padding-right: .6rem;
+}
+
+#sidebar-toggle:checked ~ .sidebar {
+  width: 60px;
+  overflow: hidden;
+}
+
+#sidebar-toggle:checked ~ .sidebar .sidebar-header h3 span,
+#sidebar-toggle:checked ~ .sidebar li span:last-child {
+  display: none;
+}
+
+#sidebar-toggle:checked ~ .sidebar li span:first-child {
+  margin-right: 0;
+}
+
+#sidebar-toggle:checked ~ .sidebar .sidebar-header,
+#sidebar-toggle:checked ~ .sidebar li {
+  display: flex;
+  justify-content: center;
+}
+
+#sidebar-toggle:checked ~ .main-content {
+  margin-left: 60px;
+}
+
+/* #sidebar-toggle:checked ~ .main-content header {
+  left: 60px;
+} */
+
+/*Active links*/
+.active {
+  color: #fff;
+  background: #25303b;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 32px;
+  background-color: #fff;
+}

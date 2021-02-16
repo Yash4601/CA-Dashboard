@@ -1,0 +1,129 @@
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile .nav.nav-pills .nav-link {
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav a.nav-link:hover {
+  background-color: #4e64dd;
+  color: #ffffff;
+}
+
+.nav a.nav-link.acti {
+      color: #ffffff;
+      background-color: #4e64dd;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #4e64dd;
+}
+
+.tab-content>.acti {
+    display: block;
+}
+
+.fade {
+    transition: opacity 0.15s linear;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile .bp-widget {
+    margin-bottom: 1.5rem;
+}
+
+#buddypress table.profile-fields:last-child {
+    margin-bottom: 0;
+}
+
+#buddypress table.profile-fields {
+  width: 100%;
+}
+
+.table, table {
+    border-collapse: collapse !important;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#buddypress:not(.youzer) table.profile-fields tbody tr {
+    font-weight: normal;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr {
+    font-size: .95em;
+    position: relative;
+    border-top: none !important;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr td.label {
+  font-weight: 600;
+text-transform: uppercase;
+font-size: .85em;
+}
+
+#buddypress:not(.youzer) table.profile-fields tbody tr td {
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    color: inherit !important;
+    height: 55px;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr td {
+  padding: 1rem 1.5rem;
+border: 0 !important;
+vertical-align: middle;
+background: none;
+vertical-align: middle;
+word-break: break-word;
+}
+
+#buddypress table.profile-fields tr td.label, #buddypress table.wp-profile-fields tr td.label {
+    border-right: 1px solid #eaeaea;
+    font-weight: 700;
+    width: 25%;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr td p {
+  margin-bottom: 0
+}
+
+#buddypress table.profile-fields p:last-child {
+    margin-top: 0;
+}
+
+#buddypress table.profile-fields p {
+    margin: 0;
+}
+
+#buddypress:not(.youzer) table.profile-fields tr:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* .tab-content>.tab-pane {
+    display: none;
+} */
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.fade {
+    transition: opacity 0.15s linear;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile .bp-widget {
+    margin-bottom: 1.5rem;
+}

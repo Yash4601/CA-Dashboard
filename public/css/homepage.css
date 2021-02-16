@@ -1,0 +1,485 @@
+:root {
+  --main-color: #2b3844;
+  --color-dark: #202c36;
+  --text-grey: #8390A2;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #8a9198;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+h2, .h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  position: relative;
+  margin-left: 295px;
+  transition: margin-left 500ms;
+}
+
+main {
+  background: var(--color-dark);
+  min-height: 91.5vh;
+  padding: 3%;
+}
+
+/* Section 1 */
+.region {
+  position: relative;
+}
+
+.grimlock-section {
+  overflow: hidden;
+}
+
+.region,
+.widget,
+.card::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.region__container {
+  max-width: 720px;
+}
+
+.region__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.region__col--1 {
+  text-align: center;
+}
+
+.region--12-cols-center .region__col, .region--12-cols-center-left .region__col, .region--12-cols-center-boxed .region__col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.region--12-cols-center .section__header {
+  text-align: center;
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__title {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+
+.grimlock-section .section__title {
+  position: relative;
+  z-index: 1;
+}
+
+.display-1 {
+  font-size: 2.85rem;
+  line-height: 1.2;
+}
+
+.widget_grimlock_section .widget-title {
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.grimlock-section .grimlock-section__title ins {
+  position: relative;
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.grimlock-section .grimlock-section__title ins:after, .grimlock-section .grimlock-section__subtitle ins:after, .elementor-section .elementor-heading-title ins:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #4e64dd;
+  position: relative;
+  top: 2px;
+  pointer-events: none;
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__header+.section__content {
+  margin-top: 25px;
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__text {
+  font-size: 1.1em;
+}
+
+.region--12-cols-center .section__text,
+.region--12-cols-center .section__footer {
+  text-align: center;
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__btn {
+  margin-top: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.grimlock-section .grimlock-section__btn.btn-primary {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid transparent;
+  padding: 0.8rem 1.25rem;
+  font-size: 15px;
+  line-height: 1.25rem;
+  border-radius: 0.3rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4e64dd;
+  border-color: #4e64dd;
+}
+
+/* Section 2 */
+.region.region--container-fluid > .region__inner > .region__container {
+    max-width: 100%;
+}
+
+.display-4 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list {
+  display: flex;
+  width: auto;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.bp-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float: none !important;
+}
+
+ol, ul, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user {
+  text-align: center;
+}
+
+.bp-card-list .bp-card-list__item {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: none;
+    box-shadow: none;
+    border: none;
+    overflow: visible !important;
+    margin-bottom: 30px;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    padding-bottom: 1.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.bp-card-list .card {
+    background-color: #2b3844;
+    border: 1px solid #2b3844;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 15px 0px rgba(82, 63, 105, .05);
+    padding: 0;
+    color: #abafb4;
+    position: relative;
+    height: 100%;
+    width: 100.1%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0 solid #eff0f6;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-color: #2b3844;
+    --post-box-shadow-color: rgba(82, 63, 105, .05);
+    z-index: 1;
+    overflow: hidden;
+    word-break: break-word;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: left;
+}
+
+.bp-card-list .card > .ov-h {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ov-h {
+    overflow: hidden !important;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card a {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar {
+    display: block;
+    float: none;
+    padding: 1.5rem 1rem 1rem 1rem;
+    margin: 0;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar img.avatar {
+    margin: 0;
+    float: none;
+    max-width: 100%;
+    width: 85px;
+    height: 85px;
+    border-radius: 500px;
+    user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+.widget img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+a img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name {
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: none;
+    font-size: 1.25;
+    display: block;
+    float: none;
+    font-size: 1rem;
+    padding-right: .7rem;
+    padding-left: .7rem;
+    margin-bottom: .5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .bp-member-xprofile-custom-fields {
+    font-size: .85em;
+    padding-right: .7rem;
+    padding-left: .7rem;
+}
+
+.bp-member-xprofile-custom-fields {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: .75rem;
+}
+
+.bp-member-xprofile-custom-fields div.bp-member-xprofile-custom-field {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+}
+
+.bp-member-xprofile-custom-fields div.bp-member-xprofile-custom-field + div.bp-member-xprofile-custom-field:before {
+    content: '•';
+    margin-left: 6px;
+    margin-right: 6px;
+    opacity: .5;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .7em;
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__btn {
+    margin-top: 20px;
+}
+
+.btn.btn-link,
+.grimlock-section .grimlock-section__btn.btn-link {
+  padding: .3rem 0 !important;
+  color: inherit;
+  position: relative;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: .5px;
+}
+
+.grimlock-section .grimlock-section__btn.btn-link {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: inherit;
+    white-space: normal;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    padding: 0;
+    line-height: 1.25rem;
+    transition: all 0.2s ease-in-out;
+    text-transform: none;
+    letter-spacing: 0;
+    text-decoration: none !important;
+    color: inherit;
+    font-size: calc(15px * .9);
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn.btn-link:after,
+.grimlock-section .grimlock-section__btn.btn-link:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  display: block;
+  position: relative;
+  top: .3em;
+  opacity: .2;
+  transition: inherit;
+}
+
+
+@media (min-width: 576px) {
+  .bp-card-list.bp-card-list--members .bp-card-list__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .region--12-cols-center .region__col, .region--12-cols-center-left .region__col, .region--12-cols-center-boxed .region__col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .bp-card-list.bp-card-list--members .bp-card-list__item {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .bp-card-list .bp-card-list__item {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .bp-card-list .bp-card-list__item .card {
+    flex: 1;
+    display: flex;
+    overflow: visible;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) .section__header+.section__content {
+    margin-top: 2%;
+  }
+
+  .section__content--avatars-12-by-5-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list>li {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .bp-card-list.bp-card-list--members .bp-card-list__item {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header).region--12-cols-left .grimlock-section__footer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+  }
+
+  .grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header).region--12-cols-left .grimlock-section__footer .grimlock-section__btn {
+    margin-top: 0;
+  }
+}

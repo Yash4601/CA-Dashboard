@@ -1,0 +1,295 @@
+<div class="screen-profile card card-static">
+  <form action="" method="post" id="profile-edit-form" class="standard-form profile-info">
+    <div class="row">
+      <div class="col-sm-auto col-lg-3 col-profile-edit-nav">
+        <ul class="button-nav clearfix" aria-label="Profile field groups" role="navigation">
+          <li class="current"><a href="#">Profile info</a></li>
+          <li><a href="#">Details</a></li>
+        </ul>
+      </div> <!-- .col-profile-edit-nav -->
+
+      <div class="col col-profile-edit-fields">
+        <div class="card card-static">
+          <h2 class="screen-profile__title h3">
+            Editing "Profile info"
+          </h2>
+          <div class="editfield field_1 field_name required-field visibility-public field_type_textbox">
+            <fieldset>
+              <legend id="field_1-1">
+                Name of Company <span class="bp-required-field-label" style="color: red;">*</span>
+              </legend>
+              <input id="field_1" name="field_1" type="text" placeholder="Demo" aria-required="true" required="" aria-labelledby="field_1-1" aria-describedby="field_1-3">
+              <div class="field-visibility-settings-notoggle" id="field-visibility-settings-toggle-1">
+                This field can be seen by: <span class="current-visibility-level">Everyone</span>
+              </div>
+            </fieldset>
+          </div>
+          <div class="editfield field_2 field_first-name required-field visibility-loggedin alt field_type_textbox">
+            <fieldset>
+              <legend id="field_2-1">
+                Email Id <span class="bp-required-field-label" style="color: red;">*</span> </legend>
+              <input id="field_2" name="field_2" type="email" placeholder="demo@example.com" aria-required="true" required="" aria-labelledby="field_2-1" aria-describedby="field_2-3">
+              <p class="field-visibility-settings-toggle" id="field-visibility-settings-toggle-2">
+                <span id="field_2-2">
+                  This field can be seen by: <span class="current-visibility-level">All Members</span>
+                </span>
+                <button type="button" class="visibility-toggle-link" aria-describedby="field_2-2" aria-expanded="false">Change</button>
+              </p>
+
+              <div class="field-visibility-settings" id="field-visibility-settings-2">
+                <fieldset>
+                  <legend>Who can see this field?</legend>
+
+                  <div class="radio">
+
+                    <label for="see-field_2_public">
+                      <input type="radio" id="see-field_2_public" name="field_2_visibility" value="public">
+                      <span class="field-visibility-text">Everyone</span>
+                    </label>
+
+                    <label for="see-field_2_adminsonly">
+                      <input type="radio" id="see-field_2_adminsonly" name="field_2_visibility" value="adminsonly">
+                      <span class="field-visibility-text">Only Me</span>
+                    </label>
+
+                    <label for="see-field_2_loggedin">
+                      <input type="radio" id="see-field_2_loggedin" name="field_2_visibility" value="loggedin" checked="checked">
+                      <span class="field-visibility-text">All Members</span>
+                    </label>
+
+                    <label for="see-field_2_friends">
+                      <input type="radio" id="see-field_2_friends" name="field_2_visibility" value="friends">
+                      <span class="field-visibility-text">My Friends</span>
+                    </label>
+
+                  </div>
+                </fieldset>
+                <button type="button" class="field-visibility-settings-close">Close</button>
+              </div>
+
+
+            </fieldset>
+          </div>
+
+
+          <div class="editfield field_3 field_last-name required-field visibility-adminsonly field_type_textbox">
+            <fieldset>
+
+              <legend id="field_3-1">
+                Phone Number <span class="bp-required-field-label" style="color: red;">*</span> </legend>
+
+
+              <input id="field_3" name="field_3" type="number" placeholder="9145681109" aria-required="true" required="" aria-labelledby="field_3-1" aria-describedby="field_3-3">
+
+
+
+              <p class="field-visibility-settings-toggle" id="field-visibility-settings-toggle-3">
+                <span id="field_3-2">
+                  This field can be seen by: <span class="current-visibility-level">Only Me</span> </span>
+                <button type="button" class="visibility-toggle-link" aria-describedby="field_3-2" aria-expanded="false">Change</button>
+              </p>
+
+              <div class="field-visibility-settings" id="field-visibility-settings-3">
+                <fieldset>
+                  <legend>Who can see this field?</legend>
+
+                  <div class="radio">
+
+
+
+                    <label for="see-field_3_public">
+                      <input type="radio" id="see-field_3_public" name="field_3_visibility" value="public">
+                      <span class="field-visibility-text">Everyone</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_3_adminsonly">
+                      <input type="radio" id="see-field_3_adminsonly" name="field_3_visibility" value="adminsonly" checked="checked">
+                      <span class="field-visibility-text">Only Me</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_3_loggedin">
+                      <input type="radio" id="see-field_3_loggedin" name="field_3_visibility" value="loggedin">
+                      <span class="field-visibility-text">All Members</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_3_friends">
+                      <input type="radio" id="see-field_3_friends" name="field_3_visibility" value="friends">
+                      <span class="field-visibility-text">My Friends</span>
+                    </label>
+
+
+
+                  </div>
+                </fieldset>
+                <button type="button" class="field-visibility-settings-close">Close</button>
+              </div>
+
+
+            </fieldset>
+          </div>
+
+
+          <div class="editfield field_5 field_birthdate required-field visibility-adminsonly alt field_type_datebox">
+            <fieldset>
+
+
+              <legend>
+                Upload Company Incorporation Document(CIN) <span class="bp-required-field-label" style="color: red;">*</span>
+              </legend>
+
+              <input id="field_1" name="field_1" type="text" value="Demo" aria-required="true" required="" aria-labelledby="field_1-1" aria-describedby="field_1-3">
+
+              <p class="field-visibility-settings-toggle" id="field-visibility-settings-toggle-5">
+                <span id="field_5-2">
+                  This field can be seen by: <span class="current-visibility-level">Only Me</span> </span>
+                <button type="button" class="visibility-toggle-link" aria-describedby="field_5-2" aria-expanded="false">Change</button>
+              </p>
+
+              <div class="field-visibility-settings" id="field-visibility-settings-5">
+                <fieldset>
+                  <legend>Who can see this field?</legend>
+
+                  <div class="radio">
+
+
+
+                    <label for="see-field_5_public">
+                      <input type="radio" id="see-field_5_public" name="field_5_visibility" value="public">
+                      <span class="field-visibility-text">Everyone</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_5_adminsonly">
+                      <input type="radio" id="see-field_5_adminsonly" name="field_5_visibility" value="adminsonly" checked="checked">
+                      <span class="field-visibility-text">Only Me</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_5_loggedin">
+                      <input type="radio" id="see-field_5_loggedin" name="field_5_visibility" value="loggedin">
+                      <span class="field-visibility-text">All Members</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_5_friends">
+                      <input type="radio" id="see-field_5_friends" name="field_5_visibility" value="friends">
+                      <span class="field-visibility-text">My Friends</span>
+                    </label>
+
+
+
+                  </div>
+                </fieldset>
+                <button type="button" class="field-visibility-settings-close">Close</button>
+              </div>
+
+
+            </fieldset>
+          </div>
+
+
+          <div class="editfield field_6 field_gender optional-field visibility-loggedin field_type_selectbox">
+            <fieldset>
+
+
+              <legend id="field_6-1">
+                Gender </legend>
+
+
+              <select id="field_6" name="field_6" aria-labelledby="field_6-1" aria-describedby="field_6-3">
+                <option value="">----</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option selected="selected" value="Other">Other</option>
+              </select>
+
+
+
+              <p class="field-visibility-settings-toggle" id="field-visibility-settings-toggle-6">
+                <span id="field_6-2">
+                  This field can be seen by: <span class="current-visibility-level">All Members</span> </span>
+                <button type="button" class="visibility-toggle-link" aria-describedby="field_6-2" aria-expanded="false">Change</button>
+              </p>
+
+              <div class="field-visibility-settings" id="field-visibility-settings-6">
+                <fieldset>
+                  <legend>Who can see this field?</legend>
+
+                  <div class="radio">
+
+
+
+                    <label for="see-field_6_public">
+                      <input type="radio" id="see-field_6_public" name="field_6_visibility" value="public">
+                      <span class="field-visibility-text">Everyone</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_6_adminsonly">
+                      <input type="radio" id="see-field_6_adminsonly" name="field_6_visibility" value="adminsonly">
+                      <span class="field-visibility-text">Only Me</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_6_loggedin">
+                      <input type="radio" id="see-field_6_loggedin" name="field_6_visibility" value="loggedin" checked="checked">
+                      <span class="field-visibility-text">All Members</span>
+                    </label>
+
+
+
+
+                    <label for="see-field_6_friends">
+                      <input type="radio" id="see-field_6_friends" name="field_6_visibility" value="friends">
+                      <span class="field-visibility-text">My Friends</span>
+                    </label>
+
+
+
+                  </div>
+                </fieldset>
+                <button type="button" class="field-visibility-settings-close">Close</button>
+              </div>
+
+
+            </fieldset>
+          </div>
+
+
+
+          <div class="submit">
+            <input type="submit" name="profile-group-edit-submit" id="profile-group-edit-submit" value="Save Changes ">
+          </div>
+
+          <input type="hidden" name="field_ids" id="field_ids" value="1,2,3,5,6">
+
+          <input type="hidden" id="_wpnonce" name="_wpnonce" value="d7e3523a3a"><input type="hidden" name="_wp_http_referer" value="/members/demo/profile/edit/group/1/">
+        </div> <!-- .card-->
+
+      </div><!-- .col-profile-edit-fields -->
+
+    </div> <!-- .row -->
+
+  </form>
+
+
+</div>

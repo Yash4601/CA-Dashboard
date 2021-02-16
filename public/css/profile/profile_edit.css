@@ -1,0 +1,407 @@
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li {
+    padding: 0;
+    margin: 0 0 .15rem 0;
+}
+
+ul.button-nav li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li.current a {
+    font-weight: 600;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li a {
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#buddypress ul.button-nav li.current a {
+    background: #ededed;
+    border: 1px solid #bbb;
+    color: #555;
+    outline: 0;
+    text-decoration: none;
+}
+
+#buddypress ul.button-nav li a {
+   background: #fff;
+   border: 1px solid #ccc;
+   color: #767676;
+   font-size: small;
+   cursor: pointer;
+   outline: 0;
+   padding: 4px 10px;
+   text-align: center;
+   text-decoration: none;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li.current a, #buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li a:hover {
+    color: #4e64dd;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li.current a:after, #buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li a:hover:after {
+    opacity: .1;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav > li a:after {
+    content: '';
+    display: block;
+    background-color: #4E64DD;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.col-profile-edit-nav + .col-profile-edit-fields > .card {
+    padding: 1.5rem 0 0 0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card h2 {
+  color: #fff;
+}
+
+.h3 {
+  font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+#buddypress .standard-form .editfield {
+    margin: 0 -1.5rem;
+    padding: 1rem 1.5rem;
+    width: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#buddypress form fieldset {
+    border: 0;
+    padding: 0;
+}
+
+#buddypress .standard-form .editfield fieldset legend {
+    font-size: inherit;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#buddypress .standard-form legend:first-child {
+    margin-top: 0;
+}
+
+#buddypress .standard-form legend {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    font-style: normal;
+}
+
+#buddypress .standard-form legend, #buddypress .standard-form span.label {
+    display: block;
+    font-weight: 700;
+    margin: 15px 0 5px;
+    width: auto;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+#buddypress:not(.youzer) .standard-form input[type="text"],
+#buddypress:not(.youzer) .standard-form input[type="number"],
+#buddypress:not(.youzer) .standard-form input[type="email"],
+#buddypress .standard-form input[type="text"],
+#buddypress .standard-form input[type="number"],
+#buddypress .standard-form input[type="email"]{
+      border-color: rgba(255,255,255,0);
+      color: #8a9198;
+      background-color: #1c2730;
+}
+
+input[type="text"],
+#buddypress:not(.youzer) .standard-form input[type="text"],
+#buddypress .standard-form input[type="text"],
+#buddypress .standard-form input[type="number"],
+#buddypress:not(.youzer) .standard-form .radio {
+  -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+#buddypress .standard-form input[type="text"],
+#buddypress .standard-form input[type="number"],
+#buddypress .standard-form input[type="email"] {
+  display: block;
+    width: 100%;
+    padding: 0.8rem 1.25rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #454748;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    min-width: 120px;
+    font: inherit
+}
+
+#buddypress .standard-form .field-visibility-settings-notoggle,
+#buddypress .standard-form .field-visibility-settings-toggle {
+    color: inherit;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: .9em;
+}
+
+#buddypress .current-visibility-level {
+    font-weight: 700;
+    font-style: normal;
+}
+
+#buddypress .field-visibility-settings,
+#buddypress .field-visibility-settings-notoggle,
+#buddypress .field-visibility-settings-toggle {
+    color: #707070;
+}
+
+#buddypress .standard-form input[type="text"] + p {
+  margin-top: .5rem;
+}
+
+#buddypress .field-visibility-settings {
+    display: none;
+    margin-top: 10px;
+}
+
+#buddypress .standard-form .field-visibility-settings div.radio, #buddypress .standard-form .field-visibility-settings ul.radio {
+    padding: 1.5rem;
+}
+
+#buddypress:not(.youzer) .standard-form .radio {
+  background-color: rgba(255,255,255,0.08);
+  list-style: none;
+    margin-bottom: 0;
+}
+
+#buddypress .standard-form div.radio label {
+    color: inherit;
+    margin-top: 0;
+    font-size: 1.05em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#buddypress .standard-form .field-visibility-settings label {
+    margin: 0;
+    font-weight: 400;
+}
+
+#buddypress .standard-form label, #buddypress .standard-form span.label {
+    font-size: .9em;
+}
+
+#buddypress .standard-form label {
+  display: block;
+    font-weight: 700;
+    margin: 15px 0 5px;
+    width: auto;
+}
+
+#buddypress .standard-form .radio label input {
+    margin-right: 3px;
+}
+
+input[type="radio"] {
+    margin-right: .25rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#buddypress:not(.youzer) button.field-visibility-settings-close {
+  background-color: rgba(255,255,255,0.08);
+}
+
+#buddypress .standard-form button.field-visibility-settings-close {
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    margin: 0;
+    background: none;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    line-height: 0;
+    border-radius: 500px;
+    letter-spacing: 0;
+}
+
+/* #buddypress .standard-form button {
+  background: #fff;
+    border: 1px solid #ccc;
+    color: #767676;
+    font-size: small;
+    cursor: pointer;
+    outline: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+} */
+
+
+
+#buddypress .standard-form button.visibility-toggle-link {
+    background: rgba(255, 255, 255, 0.08);
+    border: 0 !important;
+    margin-left: .5rem;
+    padding: 0;
+    border-radius: 500px;
+    font-size: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    font-style: normal;
+    color: inherit;
+    letter-spacing: 0;
+}
+
+#buddypress .standard-form button.visibility-toggle-link:before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: '\f013';
+    font-weight: 100;
+    font-style: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: .9rem;
+}
+
+button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.card button {
+  max-width: 100%;
+white-space: normal;
+}
+
+button {
+  padding-top: 0.8rem;
+padding-bottom: 0.8rem;
+}
+
+#buddypress .standard-form button.field-visibility-settings-close:before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: '\f00d';
+    font-weight: 100;
+    font-style: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: .9rem;
+    font-weight: 100;
+}
+
+#buddypress .standard-form .editfield + .submit {
+    margin-top: 0;
+    border-top: 0;
+}
+
+#buddypress .standard-form div.submit {
+    border-top-color: rgba(255,255,255,0.08);
+}
+
+#buddypress .standard-form div.submit {
+    width: auto;
+    margin: 1.5rem -1.5rem -1.5rem -1.5rem;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#buddypress .standard-form div.submit {
+    clear: both;
+    padding: 15px 0 0;
+}
+
+#buddypress:not(.youzer) .profile-content__body#item-body .screen-profile div.submit input {
+    float: none !important;
+}
+
+#buddypress .standard-form div.submit input:last-of-type {
+    float: right;
+    margin: 0;
+    min-width: 100px;
+}
+
+input[type="submit"],
+#buddypress .standard-form input[type="submit"],
+#buddypress input[type="submit"],
+#buddypress form input[type="submit"] {
+  border-color: #4E64DD;
+  color: #ffffff;
+  background-color: #4e64dd;
+  padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    text-transform: none;
+    border-width: 2px!important;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  #buddypress:not(.youzer) .profile-content__body#item-body .screen-profile #profile-edit-form ul.button-nav {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 40px;
+      align-self: flex-start;
+      z-index: 2;
+  }
+
+  .col-profile-edit-nav + .col-profile-edit-fields > .card {
+    margin: -1.5rem -1.5rem -1.5rem 0 !important;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+    border-top: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+}
